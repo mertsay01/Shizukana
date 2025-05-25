@@ -1,0 +1,55 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;700&display=swap');
+
+@layer base {
+  body {
+    font-family: 'Kiwi Maru', serif;
+  }
+}
+
+@layer utilities {
+  .font-roboto-condensed {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .text-kin {
+    color: #FBC02D;
+  }
+
+  .text-matcha {
+    color: #7BA05B;
+  }
+
+  .hover\:text-matcha:hover{
+    color: #7BA05B;
+  }
+
+  .text-sakura {
+    color: #F48FB1;
+  }
+
+  .bg-washi {
+    background-color: #F5F2EA;
+  }
+
+  .bg-button-green {
+    background-color: #388E3C;
+  }
+
+  .bg-matcha {
+    background-color: #7BA05B;
+  }
+
+  .hover\:bg-button:hover {
+    background-color: #7BA05B;
+  }
+
+  .border-matcha{
+    color: #7BA05B;
+  }
+
+  .hover\:border-matcha:hover {
+    background-color: #7BA05B;
+  }
+}
